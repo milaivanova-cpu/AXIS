@@ -1,0 +1,95 @@
+# AXIS-style critical appraisal (generalized, non-verbatim)
+# Scoring: Yes / No / Unclear / N/A
+
+axis_items:
+  - id: A1
+    section_hint: ["Abstract", "Introduction"]
+    label: "Clear aims/objectives stated"
+    guidance: "Paper states specific research question(s) or aims."
+
+  - id: A2
+    section_hint: ["Method","Methods"]
+    label: "Study design appropriate for aims"
+    guidance: "Design named and suits the aims (e.g., RCT for causal claim)."
+
+  - id: A3
+    section_hint: ["Method","Participants"]
+    label: "Sampling frame described"
+    guidance: "Population, recruitment, and selection described."
+
+  - id: A4
+    section_hint: ["Method","Measures","Procedure"]
+    label: "Measurement validity discussed"
+    guidance: "Evidence for validity (content/construct/criterion/response process)."
+
+  - id: A5
+    section_hint: ["Method","Measures","Results"]
+    label: "Measurement reliability reported"
+    guidance: "Internal consistency (α/ω), test–retest, ICC, etc."
+
+  - id: A6
+    section_hint: ["Method","Analysis"]
+    label: "Confounding/controls addressed"
+    guidance: "Confounders anticipated/adjusted; covariates justified."
+
+  - id: A7
+    section_hint: ["Method","Analysis"]
+    label: "Statistical methods appropriate and described"
+    guidance: "Analyses specified; assumptions/fit/robustness addressed."
+
+  - id: A8
+    section_hint: ["Results"]
+    label: "Precision/uncertainty reported"
+    guidance: "Effect sizes, CIs, standard errors, or p-values reported sensibly."
+
+  - id: A9
+    section_hint: ["Results","Discussion"]
+    label: "Results consistent with methods and data"
+    guidance: "No contradictions between design, analysis, and claims."
+
+  - id: A10
+    section_hint: ["Discussion","Conclusion"]
+    label: "Conclusions justified and limited to data"
+    guidance: "Claims aligned with evidence; avoids causal overreach."
+
+  - id: A11
+    section_hint: ["Method","Ethics"]
+    label: "Ethical approval/consent noted"
+    guidance: "IRB/ethics approvals; consent procedures (when relevant)."
+
+  - id: A12
+    section_hint: ["Funding","Acknowledgements"]
+    label: "Funding/conflicts disclosed"
+    guidance: "Funding sources and conflicts of interest stated."
+
+# Construct addendum (Self-Control / Self-Regulation)
+construct_addendum:
+  - id: C1
+    section_hint: ["Introduction","Theory"]
+    label: "Construct definition is explicit"
+    guidance: "A sentence of the form 'X is defined as…' or equivalent referential definition."
+
+  - id: C2
+    section_hint: ["Introduction","Theory"]
+    label: "Subcomponents/scope stated"
+    guidance: "Boundaries or subfacets (e.g., inhibitory control, delay of gratification) are described."
+
+  - id: C3
+    section_hint: ["Theory"]
+    label: "Model/theory/mechanism stated"
+    guidance: "References to dual-systems, process model, EVC, SRL cycles, etc."
+
+  - id: C4
+    section_hint: ["Method","Measures"]
+    label: "Measures align with claimed construct"
+    guidance: "Named scales/tasks map to the stated construct/subcomponents."
+
+  - id: C5
+    section_hint: ["Discussion"]
+    label: "Jingle–jangle considered"
+    guidance: "Paper distinguishes SC vs SRL vs grit vs EF or acknowledges overlap."
+
+  - id: C6
+    section_hint: ["Results","Analysis"]
+    label: "Evidence type supports construct claims"
+    guidance: "E.g., validity evidence (convergent/discriminant/predictive), factor structure, invariance."
