@@ -1,0 +1,55 @@
+constructs:
+  self-control:
+    canonical: ["self-control","self control","self–control","self discipline","self-discipline"]
+    neighbors: ["self-regulation","effortful control","grit","executive function","inhibitory control","willpower"]
+    subcomponents:
+      - inhibitory control
+      - delay of gratification
+      - delay discounting
+      - attentional control
+      - planning / goal maintenance
+    theories:
+      - dual-systems
+      - process model of self-control
+      - expected value of control
+      - executive function / top-down control
+
+  self-regulation:
+    canonical: ["self-regulation","self regulation","SRL"]
+    neighbors: ["self-control","metacognition","emotion regulation","self-management"]
+    subcomponents:
+      - goal setting
+      - monitoring
+      - strategy use
+      - reflection / metacognition
+      - emotion/motivation regulation
+    theories:
+      - SRL cycle models
+      - control theory / cybernetic models
+      - expectancy-value
+
+measures:
+  BSCS:
+    aliases: ["Brief Self-Control Scale","Tangney Self-Control Scale","BSCS","BSCS-13"]
+    targets: ["self-control (trait)"]
+    type: "self-report"
+  DelayDiscounting:
+    aliases: ["delay discounting","temporal discounting","Kirby","MCQ","monetary choice questionnaire"]
+    targets: ["delay of gratification / valuation"]
+    type: "behavioral task"
+  GoNoGo:
+    aliases: ["go/no-go","go nogo"]
+    targets: ["inhibitory control"]
+    type: "behavioral task"
+  StopSignal:
+    aliases: ["stop-signal task","SST","SSRT"]
+    targets: ["inhibitory control"]
+    type: "behavioral task"
+  Stroop:
+    aliases: ["Stroop","color-word Stroop"]
+    targets: ["interference control"]
+    type: "behavioral task"
+  GritS:
+    aliases: ["Grit-S","Short Grit Scale"]
+    targets: ["grit (perseverance/consistency)"]
+    type: "self-report"
